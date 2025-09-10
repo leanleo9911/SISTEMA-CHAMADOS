@@ -1,0 +1,21 @@
+{
+  "name": "sistema-de-chamados",
+  "version": "1.0.0",
+  "description": "Sistema de cadastro e consulta de chamados via terminal.",
+  "main": "Chamado.js",
+  "scripts": {
+    "start": "node Chamado.js",
+    "build": "tsc Chamado.ts"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "readline-sync": "^1.4.10"
+  },
+  "devDependencies": {
+    "typescript": "^5.0.0",
+    "@types/node": "^20.0.0",
+    "@types/readline-sync": "^1.4.4"
+  }
+}
