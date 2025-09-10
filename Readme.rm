@@ -16,14 +16,7 @@ Sistema de cadastro e consulta de chamados via terminal, com persistência em CS
 	  npm install typescript
 	  npm install readline-sync
 	  ```
-
-3. **Compile o TypeScript**
-	- Para gerar o arquivo JavaScript:
-	  ```sh
-	  npx tsc Chamado.ts
-	  ```
-
-4. **Execute o sistema**
+3. **Execute o sistema**
 	- Rode o comando:
 	  ```sh
 	  node Chamado.js
