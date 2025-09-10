@@ -13,7 +13,8 @@ Sistema de cadastro e consulta de chamados via terminal, com persistência em CS
 2. **Instale as dependências**
 	- No terminal, execute:
 	  ```sh
-	  npm install
+	  npm install typescript
+	  npm install readline-sync
 	  ```
 
 3. **Compile o TypeScript**
