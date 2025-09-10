@@ -1,0 +1,50 @@
+SISTEMA DE CHAMADOS
+
+## Descrição
+Sistema de cadastro e consulta de chamados via terminal, com persistência em CSV. Desenvolvido em TypeScript/Node.js.
+
+---
+
+## Como executar o sistema
+
+1. **Instale o Node.js**
+	- Baixe e instale: https://nodejs.org/
+
+2. **Instale as dependências**
+	- No terminal, execute:
+	  ```sh
+	  npm install
+	  ```
+
+3. **Compile o TypeScript**
+	- Para gerar o arquivo JavaScript:
+	  ```sh
+	  npx tsc Chamado.ts
+	  ```
+
+4. **Execute o sistema**
+	- Rode o comando:
+	  ```sh
+	  node Chamado.js
+	  ```
+
+---
+
+## Funcionalidades
+- Cadastro de chamados com validação de campos.
+- Consulta de chamados cadastrados.
+- Salva e lê chamados em arquivo CSV.
+
+---
+
+## Observações
+- O arquivo CSV será salvo na mesma pasta do sistema.
+- O sistema roda totalmente no terminal.
+
+---
+
+## Quem participou do trabalho
+2504288 Leonardo dos Santos Costa
+2504112 Glória Mariano Feliciano
+2512938 Giovanna Costa Falgetano
+
